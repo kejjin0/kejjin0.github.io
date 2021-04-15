@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hw06</title>
+       <style>
+         #logo{
+             text-align:left;
+             padding:20px 20px 20px 30px ;
+         }
+
+        img{
+            width:320px;
+             height: 90px;
+        }
+         .overflow{
+             overflow: auto;
+         }
+
+         #list{
+             text-align:center;
+             padding:23px 0;
+             border-bottom:1px solid gray;
+             }
+
+        #list li{
+            display: inline;
+        }
+        .list{
+            margin:35px;
+        }
+        .top{
+            float:left;
+            margin:10px 5px 0 0;
+            clear:both;
+        }
+        #input{
+            border:1px solid gray;
+            margin:40px 500px 5px 500px;
+            padding:0 0 10px 20px;
+        }
+        @media screen and (max-width:1200px){
+            div{
+                display: none;
+            }
+        }
+       </style>
+ </head>
+    <body>
+        <div id="overflow">
+                <div id="logo">
+                     <a href="./hw06.html"><img src="img/logo.PNG" class="top"></a>
+                </div>
+                      <ul id="list">
+                            <li class="list"><a href="./hw06_1.html">상의</a></li>
+                            <li>|</li>
+                            <li class="list"><a href="./hw06_2.html">하의</a></li>
+                            <li>|</li>
+                            <li class="list"><a href="./hw06_3.html">Q&A</a></li>
+                            <li>|</li>
+                            <li class="list"><a href="./hw06_4.html">로그인 / 회원가입(now page)</a></li>
+        </div></ul></div>
+
+
+        <div id="input">
+            <h2>로그인</h2>
+            <form>
+                <p> ID : <input type="text" name="ID" size="15"></p>
+                <p> PW : <input type="password" name="psw"></p>
+                <p></p>
+                <input type="submit" value="전송">
+                <input type="reset" value="다시작성">
+            </form>
+    </div>
+
+        <div id="input">
+            <h2>로그인</h2>
+            <form>
+                <p> ID : <input type="text" name="ID" size="15"></p>
+                <p> PW : <input type="password" name="psw" size="15"></p>
+                <p> 닉네임 : <input type="password" name="psw" size="15"></p>
+                <p> E-mail : <input type="text" name="ID" size="15" placeholder="simpleshopgood@naver.com"></p>
+                <p></p>
+                <input type="submit" value="전송">
+                <input type="reset" value="다시작성">
+            </form>
+        </div>
+            </body>
+        </html>
