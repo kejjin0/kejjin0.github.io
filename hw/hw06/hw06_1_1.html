@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hw06</title>
+       <style>
+            #logo{
+                text-align:center;
+                padding:18px 0 0 3px;
+            }
+            #logo img{
+                width:420px;
+                height:110px;
+            }
+            .overflow{
+                overflow: auto;
+            }
+            #list{
+                text-align:center;
+                padding:10px 0;
+                border-style: dashed;
+                border-color: gray;
+                
+            }
+            #list li{
+            display: inline;
+            opacity: 0.6;
+        }
+        #list li:hover{
+            opacity:1.0;
+        }
+            .list{
+                margin:35px;
+            }
+            .cloths{
+                float:left;
+            }
+            .fix{
+                overflow:auto;
+            }
+            #name{
+                font-size: 30px;
+                font-style:bold;
+            }
+            #cost{
+                font-size:25px;
+                color:blue;
+            }
+            #img{
+                text-align: center;
+            }
+            #img img{
+                width:500px;
+                height:550px;
+                margin: 20px;
+            }
+            #name{
+                font-size: 30px;
+                font-style:bold;
+            }
+            #cost{
+                font-size:25px;
+                color:blue;
+            }
+            #sell{
+                text-align: center;
+            }
+            #input{
+            border:1px solid gray;
+            margin:40px 500px 5px 500px;
+            padding:0 0 10px 20px;
+        }
+        @media screen and (max-width:1100px){
+            div{
+                display: none;
+            }
+        }
+        form{
+            text-align: center;
+        }
+
+       </style>
+ 
+ </head>
+    <body>
+    <div id="overflow">
+        <div id="logo">
+            <a href="../hw07/hw07.html"><img src="img/logo.PNG">
+        </div>
+        <ul id="list">
+            <li class="list"><a href="../hw07/hw07_1.html">상의</a></li>
+            <li>|</li>
+            <li class="list"><a href="../hw07/hw07_2.html">하의</a></li>
+            <li>|</li>
+            <li class="list"><a href="./hw06_3.html">Q&A</a></li>
+            <li>|</li>
+            <li class="list"><a href="./hw06_4.html">로그인 / 회원가입</a></li>
+        </ul>      
+    </div></div>
+
+        
+        <div id="sell">
+            <div id="img"><img src="./img/topT.jpg" ></div>
+                <br>
+                <div iv id="name">글귀무난 기본티</div><br><br>
+                <dic> 베스트 상품 </dic><br>
+                <dic> size: free </dic><br><br>
+                <div id="cost">25000원</div>
+        </div>
+
+        <div id="input">
+            <h2></h2>
+            <form>
+                <p> ID : <input type="text" name="ID" size="15"></p>
+                <p> 수량 : <input type="text" name="count" size="15"></p>
+                <p></p>
+                <input type="submit" value="장바구니">
+                <input type="reset" value="다시 선택">
+            </form>
+        </div>
+
+
+</body>
+</html>
